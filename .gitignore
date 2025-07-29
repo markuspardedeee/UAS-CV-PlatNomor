@@ -1,0 +1,16 @@
+# Python-related files and folders
+__pycache__/
+*.pyc
+.env
+venv/
+
+# Large model files - DO NOT UPLOAD TO GITHUB
+*.gguf
+lms/
+
+# Generated output files
+ocr_results.csv
+
+# Operating System specific files
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
